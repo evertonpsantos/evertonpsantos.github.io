@@ -1,24 +1,40 @@
 body {
-  background-color: #FF7D00;
+  background-color: #ff7d00;
   text-align: center;
-}
-
-h1 {
-    color: #FFECD1;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
-}
-
-#sobreMim {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
 }
 
+h1 {
+  color: #ffecd1;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+#sobreMim {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 .list {
-    font-size: 18px;
-    background-color: #001524;
+  font-size: 20px;
+  background-color: #001524;
+  list-style-type: none
 }
 
 .links {
-    text-decoration: none;
+  text-decoration: none;
+  color: #ffecd1;
+}
+
+#lista-habilidades {
+    color: #ffecd1;
+    line-height: 18px;
+}
+
+#indice-lista {
+  color: #ffecd1;
+}
+
+img {
+  border-radius: 20px;
 }
